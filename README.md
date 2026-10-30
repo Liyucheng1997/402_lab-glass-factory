@@ -9,6 +9,8 @@ npm install
 npm run dev
 ```
 
+在线体验：https://liyucheng1997.github.io/402_lab-glass-factory/
+
 浏览器打开终端里显示的地址（默认 http://localhost:5173）。`npm run build` 生成可部署的静态文件到 `dist/`。
 
 ## 厂区内容
