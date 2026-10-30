@@ -1,0 +1,18 @@
+{
+  "name": "glass-factory-3d",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Three.js 玻璃加工厂精细化三维模型：浮法玻璃、深加工与瓶罐成型原理演示",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "three": "^0.170.0"
+  },
+  "devDependencies": {
+    "vite": "^5.4.11"
+  }
+}

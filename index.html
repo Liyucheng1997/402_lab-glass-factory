@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="zh-CN" data-theme="light">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>玻璃加工厂 · 三维工艺原理</title>
+    <meta name="description" content="基于 Three.js 的玻璃加工厂精细化三维模型，演示浮法平板玻璃、钢化深加工与玻璃瓶成型的原理。" />
+  </head>
+  <body>
+    <div id="app">
+      <div id="scene"></div>
+
+      <header class="brand card">
+        <div class="logo-mark">玻</div>
+        <div>
+          <div class="brand-name">玻璃加工厂</div>
+          <div class="brand-sub">三维工艺原理演示</div>
+        </div>
+      </header>
+
+      <nav id="stations" class="card" aria-label="工位"></nav>
+      <aside id="info" class="card" aria-live="polite"></aside>
+      <div id="dock" class="card"></div>
+
+      <div class="legend card" aria-label="温度色标">
+        <div class="legend-title">玻璃温度 · 发光颜色</div>
+        <div class="legend-bar"></div>
+        <div class="legend-ticks tabular"><span>&lt;480</span><span>700</span><span>1000</span><span>1300</span><span>1600°C</span></div>
+        <div class="legend-hint">左键旋转 · 右键平移 · 滚轮缩放</div>
+      </div>
+
+      <div class="loading"><div class="spinner"></div><div>正在搭建工厂…</div></div>
+    </div>
+    <script type="module" src="/src/main.js"></script>
+  </body>
+</html>
